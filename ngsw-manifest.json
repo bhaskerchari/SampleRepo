@@ -11,5 +11,12 @@
       "/index.html": "bf22c901f4f80535969e3b9a789b75285ca21680"
     },
     "_generatedFromWebpack": true
-  }
+  },  
+  "short_name": "Short Name",
+  "name": "The long name of the app",
+  "start_url": "./",  
+  "background_color": "#FFFFFF",
+  "theme_color": "#AA0F0F",
+  "display": "standalone",
+  "orientation": "portrait" 
 }

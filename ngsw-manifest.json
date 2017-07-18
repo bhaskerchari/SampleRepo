@@ -1,4 +1,12 @@
 {
+  "routing": {
+    "index": "/index.html",
+    "routes": {
+      "/": {
+        "prefix": false
+      }
+    }
+  },	
   "static": {
     "urls": {
       "/polyfills.6192ea4aa92e2c035c4f.bundle.js": "5172c2f9ae579b2ce6bbe2ddeba3d8032470581c",
@@ -7,43 +15,19 @@
       "/vendor.a79f002a5d516b120af7.bundle.js": "4c3e7b479279842f6458d811391fefc7e75948d8",
       "/inline.0a5db4799a100d59a2c5.bundle.js": "e8ab93ddfd12c1af61dfac5a496e2746f3ff2024",
       "/styles.d41d8cd98f00b204e980.bundle.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "/assets/icons/icon-144x144.png": "75f89741e2fa77c53b4ae6ffab73d90245f2d01a",
+      "/assets/icons/icon-152x152.png": "4382d17e1ba2bc7176880fdcdfa945c5a75ce7af",
+      "/assets/icons/icon-192x192.png": "38f6708d29f1426308e853c168f7b79c0a0a72df",
+      "/assets/icons/icon-384x384.png": "9c5c1b607ab50e51e555ea176a0d7465eed0c885",
+      "/assets/icons/icon-512x512.png": "37e81e715ad4a45b6d6e1797e7b1c55ed1e97953",
+      "/assets/icons/icon-72x72.png": "b79972013321fd90b5d8f604375ab8dfb8fb1805",
+      "/assets/icons/icon-96x96.png": "5b30b23e21b6783e089c22126a764ef626848516",
+      "/assets/icons/pokeball.png": "9b01a932edc5fc1503a442523bc5334894a95c79",
+      "/app-manifest.json": "1d467beb27c7c7531db33b4f3d2c1b189fd9031c",
       "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-      "/index.html": "bf22c901f4f80535969e3b9a789b75285ca21680"
+      "/assets/icons/icon-128x128.png": "6f271f1cf45447cdfd43a016d9fe1afdd351747d",
+      "/index.html": "18378e42993d86d92c654be3626c2459933017b4"
     },
     "_generatedFromWebpack": true
-  },  
-  "short_name": "Short Name",
-  "name": "The long name of the app",
-  "start_url": "./",  
-  "icons": [
-    {
-      "src": "/icons/icon-128x128.png",
-      "sizes": "128x128",
-      "type": "image/png"
-    },
-    {
-      "src": "/icons/icon-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {  
-      "src": "/icons/icon-256x256.png",  
-      "sizes": "256x256",  
-      "type": "image/png"  
-    }, 
-    {
-      "src": "/icons/icon-384x384.png",
-      "sizes": "384x384",
-      "type": "image/png"
-    },
-    {
-      "src": "/icons/icon-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
-  ],
-  "background_color": "#FFFFFF",
-  "theme_color": "#AA0F0F",
-  "display": "standalone",
-  "orientation": "portrait" 
+  }
 }
